@@ -1,5 +1,5 @@
 # china-chart-of-account
-Template of China Chart of Account for ERPNext 12
+Template of China Chart of Account for ERPNext 12+
 # Contributions
 
 # License
