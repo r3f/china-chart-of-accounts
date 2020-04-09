@@ -1,0 +1,232 @@
+Chart of Accounts Template,,,,,,
+Column Labels : ,Account Name,Parent Account,Account Number,Is Group,Account Type,Root Type
+Start entering data from here : ,资产,,1,1,,Asset
+,负债,,2,1,,Liability
+,权益,,3,1,,Equity
+,收入,,4,1,,Income
+,费用,,5,1,,Expense
+,库存现金,资产,1001,1,Cash,Asset
+,银行存款,资产,1002,1,Bank,Asset
+,存放中央银行款项,资产,1003,1,,Asset
+,流动性转移,存放中央银行款项,1003.01,,,Asset
+,存放同业,资产,1011,,,Asset
+,其他货币资金,资产,1012,,,Asset
+,结算备付金,资产,1021,,,Asset
+,存出保证金,资产,1031,,,Asset
+,交易性金融资产,资产,1101,,,Asset
+,买入返售金融资产,资产,1111,,,Asset
+,应收票据,资产,1121,,Receivable,Asset
+,应收账款,资产,1122,1,Receivable,Asset
+,实款,应收账款,1122.01,,Receivable,Asset
+,预付账款,资产,1123,1,Receivable,Asset
+,货款,预付账款,1123.01,,Receivable,Asset
+,应收账款(PoS),资产,1124,,Receivable,Asset
+,应收股利,资产,1131,,Receivable,Asset
+,应收利息,资产,1132,,Receivable,Asset
+,应收代位追偿款,资产,1201,,,Asset
+,应收分保账款,资产,1211,,,Asset
+,应收分保合同准备金,资产,1212,,,Asset
+,其他应收款,资产,1221,1,,Asset
+,员工,其他应收款,1231.01,,,Asset
+,外部单位,其他应收款,1231.02,,,Asset
+,坏账准备,资产,1231,,,Asset
+,贴现资产,资产,1301,,,Asset
+,拆出资金,资产,1302,,,Asset
+,贷款,资产,1303,,,Asset
+,贷款损失准备,资产,1304,,,Asset
+,代理兑付证券,资产,1311,,,Asset
+,代理业务资产,资产,1321,,,Asset
+,材料采购,资产,1401,,,Asset
+,在途物资,资产,1402,,,Asset
+,原材料,资产,1403,,,Asset
+,材料成本差异,资产,1404,,,Asset
+,库存商品,资产,1405,1,Stock,Asset
+,发出商品,资产,1406,,,Asset
+,商品进销差价,资产,1407,,,Asset
+,委托加工物资,资产,1408,,,Asset
+,周转材料,资产,1411,,,Asset
+,消耗性生物资产,资产,1421,,,Asset
+,贵金属,资产,1431,,,Asset
+,抵债资产,资产,1441,,,Asset
+,损余物资,资产,1451,,,Asset
+,融资租赁资产,资产,1461,,,Asset
+,存货跌价准备,资产,1471,,,Asset
+,持有至到期投资,资产,1501,,,Asset
+,持有至到期投资减值准备,资产,1502,,,Asset
+,可供出售金融资产,资产,1503,,,Asset
+,长期股权投资,资产,1511,,,Asset
+,长期股权投资减值准备,资产,1512,,,Asset
+,投资性房地产,资产,1521,,,Asset
+,长期应收款,资产,1531,,,Asset
+,未实现融资收益,资产,1532,,,Asset
+,存出资本保证金,资产,1541,,,Asset
+,固定资产,资产,1601,,Fixed Asset,Asset
+,累计折旧,资产,1602,,Accumulated Depreciation,Asset
+,固定资产减值准备,资产,1603,,Fixed Asset,Asset
+,在建工程,资产,1604,,Fixed Asset,Asset
+,工程物资,资产,1605,,Fixed Asset,Asset
+,固定资产清理,资产,1606,,Fixed Asset,Asset
+,未担保余值,资产,1611,,,Asset
+,生产性生物资产,资产,1621,,,Asset
+,生产性生物资产累计折旧,资产,1622,,,Asset
+,公益性生物资产,资产,1623,,,Asset
+,油气资产,资产,1631,,,Asset
+,累计折耗,资产,1632,,,Asset
+,无形资产,资产,1701,,,Asset
+,累计摊销,资产,1702,,,Asset
+,无形资产减值准备,资产,1703,,,Asset
+,商誉,资产,1711,,,Asset
+,长期待摊费用,资产,1801,,,Asset
+,递延所得税资产,资产,1811,,,Asset
+,独立账户资产,资产,1821,,,Asset
+,待处理财产损溢,资产,1901,,,Asset
+,短期借款,负债,2001,,,Liability
+,存入保证金,负债,2002,,,Liability
+,拆入资金,负债,2003,,,Liability
+,向中央银行借款,负债,2004,,,Liability
+,吸收存款,负债,2011,,,Liability
+,同业存放,负债,2012,,,Liability
+,贴现负债,负债,2021,,,Liability
+,交易性金融负债,负债,2101,,,Liability
+,卖出回购金融资产款,负债,2111,,,Liability
+,应付票据,负债,2201,,Payable,Liability
+,应付账款,负债,2202,1,Payable,Liability
+,实款,应付账款,2202.01,,Payable,Liability
+,暂估,应付账款,2202.02,,Payable,Liability
+,预收账款,负债,2203,1,Payable,Liability
+,货款,预收账款,2205.01,,,Liability
+,应付职工薪酬,负债,2211,1,,Liability
+,工资,应付职工薪酬,2211.01,,,Liability
+,社会保险,应付职工薪酬,2211.02,,,Liability
+,工会经费,应付职工薪酬,2211.03,,,Liability
+,辞退福利,应付职工薪酬,2211.04,,,Liability
+,奖金,应付职工薪酬,2211.05,,,Liability
+,职工福利费,应付职工薪酬,2211.06,,,Liability
+,应交税费,负债,2221,1,Tax,Liability
+,应交增值税,应交税费,2221.01,1,Tax,Liability
+,小规模,应交增值税,2221.01.01,,Tax,Liability
+,进项税额,应交增值税,2221.01.02,,Tax,Liability
+,已交税金,应交增值税,2221.01.03,,Tax,Liability
+,转出未交增值税,应交增值税,2221.01.04,,Tax,Liability
+,减免税款,应交增值税,2221.01.05,,Tax,Liability
+,销项税额,应交增值税,2221.01.06,,Tax,Liability
+,出口退税,应交增值税,2221.01.07,,Tax,Liability
+,进项税额转出,应交增值税,2221.01.08,,Tax,Liability
+,出口抵减内销产品应纳税额,应交增值税,2221.01.09,,Tax,Liability
+,转出多交增值税,应交增值税,2221.01.10,,Tax,Liability
+,未交增值税,应交税费,2221.02,,Tax,Liability
+,应交消费税,应交税费,2221.03,,Tax,Liability
+,应交企业所得税,应交税费,2221.04,,Tax,Liability
+,应交土地增值税,应交税费,2221.05,,Tax,Liability
+,应交车船使用税,应交税费,2221.06,,Tax,Liability
+,应交个人所得税,应交税费,2221.07,,Tax,Liability
+,应交教育费附加,应交税费,2221.08,,Tax,Liability
+,应交地方教育附加,应交税费,2221.09,,Tax,Liability
+,应交城市维护建设税,应交税费,2221.10,,Tax,Liability
+,应交印花税,应交税费,2221.11,,Tax,Liability
+,应交房产税,应交税费,2221.12,,Tax,Liability
+,应交资源税,应交税费,2221.13,,Tax,Liability
+,应交预交增值税,应交税费,2221.14,,Tax,Liability
+,应交待抵扣进项税额,应交税费,2221.15,,Tax,Liability
+,应交待认证进项税额,应交税费,2221.16,,Tax,Liability
+,应交待转销项税额,应交税费,2221.17,,Tax,Liability
+,应交增值税留抵税额,应交税费,2221.18,,Tax,Liability
+,应交转让金融商品应交增值税,应交税费,2221.19,,Tax,Liability
+,应交代扣代交增值税,应交税费,2221.20,,Tax,Liability
+,应交简易计税,应交税费,2221.21,,Tax,Liability
+,应交排污费,应交税费,2221.22,,Tax,Liability
+,应交矿产资源补偿费,应交税费,2221.23,,Tax,Liability
+,应交残疾人就业保障金,应交税费,2221.24,,Tax,Liability
+,应交文化事业建设费,应交税费,2221.25,,Tax,Liability
+,应付利息,负债,2231,,,Liability
+,应付股利,负债,2232,,,Liability
+,其他应付款,负债,2241,1,,Liability
+,员工,其他应付款,2241.01,,,Liability
+,外部单位,其他应付款,2241.02,,,Liability
+,应付保单红利,负债,2251,,,Liability
+,应付分保账款,负债,2261,,,Liability
+,代理买卖证券款,负债,2311,,,Liability
+,代理承销证券款,负债,2312,,,Liability
+,代理兑付证券款,负债,2313,,,Liability
+,代理业务负债,负债,2314,,,Liability
+,递延收益,负债,2401,,,Liability
+,长期借款,负债,2501,,,Liability
+,应付债券,负债,2502,,,Liability
+,未到期责任准备金,负债,2601,,,Liability
+,保险责任准备金,负债,2602,,,Liability
+,保户储金,负债,2611,,,Liability
+,独立账户负债,负债,2621,,,Liability
+,长期应付款,负债,2701,,,Liability
+,未确认融资费用,负债,2702,,,Liability
+,专项应付款,负债,2711,,,Liability
+,预计负债,负债,2801,,,Liability
+,递延所得税负债,负债,2901,,,Liability
+,实收资本,权益,4001,,Equity,Equity
+,资本公积,权益,4002,,Equity,Equity
+,盈余公积,权益,4101,,Equity,Equity
+,一般风险准备,权益,4102,,Equity,Equity
+,本年利润,权益,4103,,Equity,Equity
+,利润分配,权益,4104,,Equity,Equity
+,库存股,权益,4201,,Equity,Equity
+,生产成本,费用,5001,1,Expense Account,Expense
+,基本生产成本,生产成本,5001.01,,Expense Account,Expense
+,原材料,生产成本,5001.02,,Expense Account,Expense
+,直接人工,生产成本,5001.03,,Expense Account,Expense
+,直接福利费,生产成本,5001.04,,Expense Account,Expense
+,辅助生产成本,生产成本,5001.05,,Expense Account,Expense
+,制造费用,费用,5101,1,Expense Account,Expense
+,结转制造费用,制造费用,5101.01,,Expense Account,Expense
+,劳务成本,费用,5201,,Expense Account,Expense
+,研发支出,费用,5301,,Expense Account,Expense
+,工程施工,费用,5401,,Expense Account,Expense
+,工程结算,费用,5402,,Expense Account,Expense
+,机械作业,费用,5403,,Expense Account,Expense
+,主营业务收入,收入,6001,,Income Account,Income
+,利息收入,收入,6011,,Income Account,Income
+,手续费及佣金收入,收入,6021,,Income Account,Income
+,保费收入,收入,6031,,Income Account,Income
+,租赁收入,收入,6041,,Income Account,Income
+,其他业务收入,收入,6051,,Income Account,Income
+,汇兑损益,收入,6061,,Income Account,Income
+,公允价值变动损益,收入,6101,,Income Account,Income
+,投资收益,收入,6111,,Income Account,Income
+,摊回保险责任准备金,费用,6201,,Expense Account,Expense
+,摊回赔付支出,费用,6202,,Expense Account,Expense
+,摊回分保费用,费用,6203,,Expense Account,Expense
+,营业外收入,费用,6301,1,Income Account,Expense
+,非流动资产处置净收益,营业外收入,6301.01,,Income Account,Income
+,政府补助,营业外收入,6301.02,,Income Account,Income
+,捐赠收益,营业外收入,6301.03,,Income Account,Income
+,盘盈收益,营业外收入,6301.04,,Income Account,Income
+,增值税进项税额加计扣除,营业外收入,6301.05,,Income Account,Income
+,主营业务成本,费用,6401,,Expense Account,Expense
+,其他业务成本,费用,6402,,Expense Account,Expense
+,税金及附加,费用,6403,,Expense Account,Expense
+,利息支出,费用,6411,,Expense Account,Expense
+,手续费及佣金支出,费用,6421,,Expense Account,Expense
+,提取未到期责任准备金,费用,6501,,Expense Account,Expense
+,提取保险责任准备金,费用,6502,,Expense Account,Expense
+,赔付支出,费用,6511,,Expense Account,Expense
+,保户红利支出,费用,6521,,Expense Account,Expense
+,退保金,费用,6531,,Expense Account,Expense
+,分出保费,费用,6541,,Expense Account,Expense
+,分保费用,费用,6542,,Expense Account,Expense
+,销售费用,费用,6601,,Cost of Goods Sold,Expense
+,管理费用,费用,6602,1,Expense Account,Expense
+,折旧,管理费用,6602.01,,Depreciation,Expense
+,库存调整,管理费用,6602.02,,Stock Adjustment,Expense
+,财务费用,费用,6603,1,Expense Account,Expense
+,四舍五入,财务费用,6603.01,,Round Off,Expense
+,勘探费用,费用,6604,,Expense Account,Expense
+,资产减值损失,费用,6701,,Expense Account,Expense
+,营业外支出,费用,6711,1,Expense Account,Expense
+,非流动资产处置净损失,营业外支出,6711.01,,Expense Account,Income
+,赞助支出,营业外支出,6711.02,,Expense Account,Income
+,坏账损失,营业外支出,6711.03,,Expense Account,Income
+,无法收回的长期债券投资损失,营业外支出,6711.04,,Expense Account,Income
+,无法收回的长期股权投资损失,营业外支出,6711.05,,Expense Account,Income
+,自然灾害等不可抗力因素造成的损失,营业外支出,6711.06,,Expense Account,Income
+,营税收滞纳金,营业外支出,6711.07,,Expense Account,Income
+,罚款及滞纳金,营业外支出,6711.08,,Expense Account,Income
+,所得税费用,费用,6801,,Expense Account,Expense
+,以前年度损益调整,费用,6901,,Expense Account,Expense
