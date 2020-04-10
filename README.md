@@ -7,7 +7,7 @@ Template of China Chart of Account for ERPNext 12+
 ![](https://cdn.jsdelivr.net/gh/r3f/img/2020/04/10/image-13:39:17.png)
 
 # Contributions
-![](https://cdn.jsdelivr.net/gh/r3f/img/2020/04/10/image-13:39:56.png)
+![](https://cdn.jsdelivr.net/gh/r3f/img/2020/04/10/image-13:45:26.png)
 # 科目与跟类型
 
 | Account Name  | Root Type |
