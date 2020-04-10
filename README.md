@@ -1,5 +1,6 @@
 # china-chart-of-account
 Template of China Chart of Account for ERPNext 12+
+ERPNext 12+ 中国会计科目表模版
 # Contributions
 
 # 科目类型中英文对应表
