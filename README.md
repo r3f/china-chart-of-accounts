@@ -1,10 +1,24 @@
 # china-chart-of-account
 Template of China Chart of Account for ERPNext 12+
-ERPNext 12+ 中国会计科目表模版
+
+
+注意：下载模板后，请在模板中填写详细信息，如下面实例屏幕截图所示。请确保为科目类型“Cost of Goods Sold”，“折旧”，“Depreciation”，“Payable”，“Receivable”，“Stock Adjustment”创建科目。这些帐户的根类型必须是Asset，Liability，Income，Expense和Equity中的一种。科目类型只能定义为“科目类型中英文对应表”中的内容或者留空，并且 Bank, Cash, Stock 这 3 个类型只能定义为分组且不包含子科目。
+
+！[实例屏幕截图](https://docs.erpnext.com/docs/assets/img/setup/coa-template-1.png)
+
 # Contributions
 
+# 科目与跟类型
+
+| Account Name  | Root Type |
+| ------ | --------- |
+| 资产 | Asset |
+| 负债 | Liability |
+| 权益 | Equity |
+| 收入 | Income ||
+| 费用 | Expense |
+
 # 科目类型中英文对应表
-科目类型只能定义为一下类型或者留空
 
 | Account Type  | 科目类型 |
 | ------------- | ------------- |
